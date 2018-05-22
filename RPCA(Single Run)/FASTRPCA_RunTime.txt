@@ -1,0 +1,4 @@
+Reached stopping criteria (based on change in residual)
+Reached end of SPGL1 iterations: converged to right residual
+Elapsed time is 115.999672 seconds.
+>> 

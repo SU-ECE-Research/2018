@@ -1,0 +1,23 @@
+How To "Ground Truth" an Image
+
+1) Open MATLAB > Apps > Image Segmenter.
+2) Load picture (for example: IMG_0031).
+3) Use "Draw Foreground" to outline the foreground (cat).
+   Suggestions:
+   	Work in sections so if you mess up, there's less to redo.
+	An open line connects a straight line between the two points. Use this trick to draw flat regions. 
+4) Click the green check on "Export".
+5) Rename:
+	"GroundTruth_IMG_0031_BW"
+	"GroundTruth_IMG_0031_mask"
+6) Click to main MATLAB window > Workspace.
+7) Right-click each, renaming:
+	GroundTruth_IMG_0031_BW.mat
+	GroundTruth_IMG_0031_mask.mat
+   And saving in: \\ECEFS2\ResearchData\2018\RPCA(30SetRun)\Data\ATO04_P016\7-06-12\GroundTruth
+8) Click to Command Window and execute:
+	imwrite(GroundTruth_IMG_0031_BW, fullfile('\\ECEFS2\ResearchData\2018\RPCA(30SetRun)\Data\ATO04_P016\7-06-12\GroundTruth', 'GroundTruth_IMG_0031_BW.png'));
+	imwrite(GroundTruth_IMG_0031_mask, fullfile('\\ECEFS2\ResearchData\2018\RPCA(30SetRun)\Data\ATO04_P016\7-06-12\GroundTruth', 'GroundTruth_IMG_0031_mask.png'));
+9) Check that all four files were downloaded successfully.
+10) Repeat steps 2-9 for all images!
+11) Profit??

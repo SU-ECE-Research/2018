@@ -1,0 +1,14 @@
+FASTRPCA
+From:   .\RPCA\FastRPCA(Becker)\ 
+Run:    RPCA_SL.m
+Results will be displayed in matlab
+
+
+
+RS-RPCA
+From:  .\RPCA\RS-RPCA(Fowler)\Working\
+Run:   run_experiment_rsalm.m
+Results will be in .\RPCA\RS-RPCA(Fowler)\Working\Results\
+
+*.mp4 is so fast it is not super useful yet
+*.pgm images are better they can be opened in matlab or Gimp
